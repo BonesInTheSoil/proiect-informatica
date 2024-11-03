@@ -4,12 +4,44 @@
 		<title>Proiect informatica</title>
 	</head>
 
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    </style>
+
 	<body style="background-color:#f1d348;">
 		<h1 style="text-align: center;">Retete de bucatarie</h1>
-        
-        <a href="2.html">
-            <button>The gulyas button</button>
-        </a>               
+       
+        <div class="row">
+        <a href="gulyas.html">
+            <div class="column" href="gulyas.html">
+              <img src="images/Gulyas.jpg" alt="Gulyas" style="width:100%">
+            </div>
+        </a>
+        <a href="sarmale.html">
+            <div class="column" href="sarmale.html">
+                <img src="images/Sarmale.jpg" alt="Sarmale" style="width:100%">
+            </div>
+        </a>
+        <a href="palinka.html">>
+            <div class="column" href="palinka.html">
+                <img src="images/Palinka.jpg" alt="Palinka" style="width:100%">
+            </div>
+        </a>
+        </div>
 
         <hr>
 		<p>
