@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    text-indent: 3%;
+}
+
+p{
+    font-family: Georgia, serif;
+}
+
+pre{
+    font-family: Georgia, serif;
+}
+
+
+body{
+    margin: 0px;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #525252;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #303030; 
+}
+
+.navbar li{
+    float: left;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
